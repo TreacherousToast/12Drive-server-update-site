@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,700");
+.text-center {
+  text-align: center;
+}
+
+.display-3 {
+  font-weight: 500;
+}
+
+#main-title {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 500%;
+  background-color: #6b7a8f;
+}
+/*# sourceMappingURL=styles.css.map */
