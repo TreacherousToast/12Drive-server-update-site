@@ -1,40 +1,87 @@
 <!DOCTYPE html>
 <html>
+<!--Added a head-->
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+
+
+</head>
+
 <body>
-  <center><h3>12Drive Server project</p></center>
-  <h4>What is 12Drive?</h4>
-  <p>12Drive is an experimental server project made in the UHill computer lab. 
-    It consists of 3 computers in a LAN each connected to 4 drives (hence the name 12Drive). 
-    It was made to offer a high-capacity data storage solution that isn't run by Google, Amazon, Microsoft, or Dropbox.
-  12Drive also uses only open-source software, running Lubuntu on each computer, using OpenSSH to communicate and send files between servers, and using Samba as a server management utility.</p>
-  <br>
-  <h4>Goals</h4>
-  <ul>
-    <li>Use only parts found in the UHill computer lab</li>
-    <li>Have a web interface where users can upload and download files</li>
-    <li>Have a minimum 24-hour uptime for each cycle</li>
+  <header class="container">
+    <div>
+      <div id="main-title" class="jumbotron shadow" >
+        <h1 class="display-3 text-center">12Drive Server Project</h1>
+        <hr class="my-2">
+      </div><hr>
+  </header>
+  
+  <main class="container">
+    <h4>What is 12Drive?</h4>
+    <p class="lead">12Drive is an experimental server project made in the UHill computer lab.
+      It consists of 3 computers in a LAN each connected to 4 drives (hence the name 12Drive).
+      It was made to offer a high-capacity data storage solution that isn't run by Google, Amazon, Microsoft, or
+      Dropbox.
+      12Drive also uses only open-source software, running Lubuntu on each computer, using OpenSSH to communicate and
+      send files between servers, and using Samba as a server management utility.</p>
+    <br>
+    <h4>Goals</h4>
+    <ul class="lead">
+      <li>Use only parts found in the UHill computer lab</li>
+      <li>Have a web interface where users can upload and download files</li>
+      <li>Have a minimum 24-hour uptime for each cycle</li>
     </ul>
-  <br>
-  <h4>Updates</h4>
-  <p>4/30/2019: The Samba filesystem was set up and is now running, so the server can be used as a Windows network share on its own LAN.</p>
-  <br>
-  <h4>To-do list</h4>
-  <ul>
-    <li>Make case for server</li>
-    <li>Make client-side web interface</li>
-    <li>Make cooling system for drives</li>
-    <li>(Maybe) Set up remote temperature monitoring for drives</li>
-    <li>(Maybe) Make remote power-on system</li>
-    <li>(Maybe) Make Bluetooth file-transfer system</li>
+    <br>
+    <h4>Updates</h4>
+    <p class="lead">4/30/2019: The Samba filesystem was set up and is now running, so the server can be used as a Windows network
+      share on its own LAN.</p>
+    <br>
+    <h4>To-do list</h4>
+    <ul class="lead">
+      <li>Make case for server</li>
+      <li>Make client-side web interface</li>
+      <li>Make cooling system for drives</li>
+      <li>(Maybe) Set up remote temperature monitoring for drives</li>
+      <li>(Maybe) Make remote power-on system</li>
+      <li>(Maybe) Make Bluetooth file-transfer system</li>
     </ul>
-  <br>
-  <h4><a href="https://docs.google.com/document/d/1GxGFKh0LFVvDfalOImGt9NCduPb2nItQF5Ruwcp1kZU/edit?usp=sharing">Data policy/terms of use</a></h4>
-  <br>
-  <h4>Contact info</h4>
-  <p>If you have any questions about the server, have a suggestion, want to work on the server, or have a security vulnerability that you would like to disclose, please send an email to 12driveserver@gmail.com</p>
-  <br>
-  <!-- Put new things here -->
-  <br>
-    <p>Website and server are created and maintained by TreacherousToast (Callum). </p><a href="https://github.com/TreacherousToast">TreacherousToast's Github page</a>
-  </body>
+    <br>
+    <h4><a href="https://docs.google.com/document/d/1GxGFKh0LFVvDfalOImGt9NCduPb2nItQF5Ruwcp1kZU/edit?usp=sharing">Data
+        policy/terms of use</a></h4>
+    <br>
+  </main>
+  <footer class="container">
+    <hr>
+    <h4>Contact info</h4>
+    <p><em>If you have any questions about the server, have a suggestion, want to work on the server, or have a security
+        vulnerability that you would like to disclose, please send an email to 12driveserver@gmail.com</em></p>
+    <!-- Put new things here -->
+    <hr>
+    <p class="lead">
+      Website created by TreacherousToast (Callum) and Zinadine Muñoz. The server was created and is maintained by
+      TreacherousToast.
+    </p><a href="https://github.com/TreacherousToast">TreacherousToast's Github page</a>
+    </div>
+    <hr>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
+
+</body>
+
 </html>
